@@ -71,3 +71,29 @@
   background: #FFD700;
   color: white;
 }
+
+/* video section */
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #f0f0f0; /* 배경색 */
+}
+.video-text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 48px;
+  background: linear-gradient(to right, #FDE10C, #978607, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.video-description {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: black;
+}
